@@ -275,7 +275,7 @@
 
  .hero-image {
 
-   background-image: url("/images/pexels-craytive-1545529.jpg");
+   background-image: url("./images/pexels-craytive-1545529.jpg");
    background-repeat: no-repeat;
    height: 100svh;
    background-size: cover;
@@ -807,4 +807,5 @@
 
  a:hover {
    color: #a4161a;
+
  }
