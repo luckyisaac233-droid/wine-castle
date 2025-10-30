@@ -275,7 +275,7 @@
 
  .hero-image {
 
-   background-image: url("./images/pexels-craytive-1545529.jpg");
+   background-image: url("../images/pexels-craytive-1545529.jpg");
    background-repeat: no-repeat;
    height: 100svh;
    background-size: cover;
@@ -437,7 +437,7 @@
  }
 
  .story-image {
-   background-image: url("/images/valna-studio-tPKQwYHy8q4-unsplash\ \(2\).jpg");
+   background-image: url("../images/valna-studio-tPKQwYHy8q4-unsplash\ \(2\).jpg");
    background-size: 100%;
    background-repeat: no-repeat;
    height: 100svh;
@@ -596,7 +596,7 @@
    margin-top: 20em;
    display: flex;
    justify-content: center;
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/martin-baron-rFS4F-0WWcg-unsplash.jpg");
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/martin-baron-rFS4F-0WWcg-unsplash.jpg");
    color: #fdfdfd;
    background-position: center;
    background-size: cover;
@@ -809,3 +809,4 @@
    color: #a4161a;
 
  }
+
