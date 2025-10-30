@@ -1,0 +1,51 @@
+.sign-in-button:hover {
+  color: #f8f9fa;
+  background-color: #8b0000;
+}
+
+.hero-cta-button:hover {
+  transform: scale(1.1);
+}
+
+.hero-cta-button2:hover {
+  background: #8b0000;
+  color: #f8f9fa;
+}
+
+
+
+.specification-cta button:hover {
+  background-color: #8b0000;
+  color: #f8f9fa;
+}
+
+.discover button:hover {
+  background-color: #8b0000;
+  color: #f8f9fa;
+}
+
+.services-button>button:hover {
+  background-color: #8b0000;
+  color: #f8f9fa;
+}
+
+.story-button>button:hover {
+  background-color: #8b0000;
+  color: #f8f9fa;
+}
+
+
+.cta-button5:hover {
+  color: #f8f9fa;
+  background-color: #8b0000
+}
+
+.subscribe:hover {
+  color: #f8f9fa;
+  background-color: #8b0000;
+}
+
+.wine-card:hover {
+  transform: scale(1.03);
+
+}

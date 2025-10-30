@@ -1,0 +1,308 @@
+@media(max-width: 1200px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .discover-image-row,
+  .services-image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*flex-direction: column;*/
+  }
+
+  .specification-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .specification-image {
+    margin: 0 !important;
+  }
+
+  .testimonies {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    height: 40vh;
+  }
+
+  .cta-section {
+    height: 40vh;
+  }
+
+  .story-image {
+    height: 40vh;
+  }
+}
+
+@media(max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .hero-image {
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .wine-card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .specification-info {
+    font-size: 0.8em;
+    padding-left: 38px;
+    padding-right: 10px;
+  }
+
+  #section-info,
+  .hero-info {
+    font-size: 0.8em;
+    padding: 0px 10px;
+  }
+
+  .discover-image-row,
+  .services-image-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+
+  .cta-content {
+    margin: 0;
+  }
+
+  .cta-header {
+    padding: 0px 8px;
+  }
+
+  .cta-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  footer div>img {
+    width: 20px;
+  }
+
+  .about-us-text {
+    margin: 0 !important;
+  }
+
+  .footer h3 {
+    margin: 10px 0px;
+  }
+
+  .copy-right {
+    margin-bottom: 8px;
+  }
+
+  .last-column {
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+
+  li {
+    margin: 10px 0px;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
+
+  .quick-links {
+    align-self: flex-start;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+  }
+
+
+  .story-image {
+    /* background-image: url("/images/valna-studio-tPKQwYHy8q4-unsplash.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+
+  }
+
+  .specification-info,
+  .section-info {
+    font-size: 0.9rem;
+  }
+
+
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+
+  .testimonial-header>h2 {
+    font-size: 1.5em;
+  }
+
+
+  nav {
+    width: 280px;
+    gap: 5px;
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+}
+
+@media(max-width: 375px) {
+  h1 {
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .sign-in-header {
+    margin-right: 0.2em
+  }
+
+  .testimonial-discribtion {
+    padding: 0px 8px;
+  }
+
+  .story-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sign-in-button {
+    padding: 5px;
+  }
+
+  .discover-image,
+  .services-image {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .hero-info,
+  .section-info {
+    padding: 0px 10px;
+  }
+
+  .hero-image {
+    height: 30vh;
+  }
+
+  .story-image {
+    height: 30vh;
+  }
+
+  .cta-section {
+    height: 30vh;
+  }
+}
+
+@media(min-width: 2560px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: aqua;
+    margin-left: 1em;
+    margin-left: 1em;
+  }
+
+  .discover-image-row,
+  .services-image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .discover-image,
+  .services-image {
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
+  }
+}
